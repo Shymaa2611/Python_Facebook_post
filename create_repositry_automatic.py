@@ -1,0 +1,41 @@
+import webbrowser
+import time
+import pyautogui
+
+#===================== Create Account On PythonanyWhere=======================#
+url='https://github.com/Shymaa2611'
+
+webbrowser.open(url)
+time.sleep(5)
+pyautogui.hotkey('ctrl','f')
+pyautogui.typewrite("Repositories") 
+pyautogui.press('enter')
+pyautogui.press('escape')
+pyautogui.press('enter')
+pyautogui.click(150,150)
+time.sleep(2)
+pyautogui.hotkey('ctrl','f')
+pyautogui.typewrite("New") 
+pyautogui.press('enter')
+pyautogui.press('escape')
+pyautogui.press('enter')
+pyautogui.click(700,150)
+time.sleep(5)
+pyautogui.hotkey('ctrl','f')
+pyautogui.typewrite("Repository name*") 
+pyautogui.press('enter')
+pyautogui.press('escape')
+pyautogui.press('enter')
+pyautogui.click(500,100)
+time.sleep(4)
+pyautogui.typewrite("new Automatic repository")
+time.sleep(5)
+pyautogui.hotkey('ctrl','f')
+pyautogui.typewrite("create reposoitory")
+pyautogui.press('enter')
+pyautogui.press('escape')
+pyautogui.press('enter')
+pyautogui.click(400,400)
+time.sleep(2)
+pyautogui.click(1000,1000)
+time.sleep(2)
