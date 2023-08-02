@@ -1,7 +1,7 @@
 import webbrowser
 import time
 import pyautogui
-url = 'https://www.facebook.com/shaymaa.madhetahmed?mibextid=b06tZ0'
+url=input("Enter Facebook Url ? ")
 webbrowser.open(url)
 time.sleep(7)
 pyautogui.hotkey('ctrl','f')
